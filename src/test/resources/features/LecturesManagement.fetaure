@@ -1,0 +1,17 @@
+Feature: Lectures Management
+
+Scenario: Lectures Creation
+Given User with email "Arjeta.Salihu@gmail.com " is logged in
+When User creates new lectures
+Then User should see new lectures
+
+
+Scenario2: Lectures Delete
+Given User with email "Arjeta.Salihu@gmail.com " is logged in
+When User deletes lectures
+Then User should be deleted
+
+Scenario3: Lectures Update
+Given User with email "Arjeta Salihu " is logged in
+When User updates  lectures
+Then User should uptated
